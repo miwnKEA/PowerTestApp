@@ -1,0 +1,18 @@
+NextPage As screen:
+
+    Button1_1 As button:
+        Fill: =RGBA(172, 62, 11, 1)
+        Height: =57
+        OnSelect: =Navigate(FinishPage, ScreenTransition.Fade)
+        Text: ="Go to finish page"
+        Width: =225
+        X: =1100
+        Y: =676
+        ZIndex: =1
+
+    Label1_1 As label:
+        Text: ="The next page."
+        X: =40
+        Y: =40
+        ZIndex: =2
+

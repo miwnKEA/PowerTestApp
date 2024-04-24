@@ -1,0 +1,30 @@
+{
+  "c07dee28-69cb-4013-aa38-0c79925a24a1": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1685/1.0.1685.3700/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://powerkea.sharepoint.com/sites/AgileTestAnotherName/": {
+        "dataSources": {
+          "Test-List": {
+            "tableName": "73a31f6d-cf37-491d-ba23-86c26be1054a"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Test-List"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "c07dee28-69cb-4013-aa38-0c79925a24a1"
+  }
+}
